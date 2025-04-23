@@ -1,0 +1,11 @@
+{
+    "required": true,
+    "package": "com.nordiago.floating_candles.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "CandleBlockMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

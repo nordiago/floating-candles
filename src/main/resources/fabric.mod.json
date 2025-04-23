@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "floating_candles",
+    "version": "${version}",
+    "name": "Floating Candles",
+    "description": "Place floating candles without support blocks.",
+    "authors": [
+        "Nordiago"
+    ],
+    "contact": {
+        "homepage": "https://github.com/nordiago/floating-candles",
+        "sources": "https://github.com/nordiago/floating-candles"
+    },
+    "license": "MIT",
+    "icon": "assets/floating_candles/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.nordiago.floating_candles.FloatingCandles"
+        ]
+    },
+    "mixins": [
+        "floating_candles.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.13",
+        "minecraft": "~1.21.5",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
